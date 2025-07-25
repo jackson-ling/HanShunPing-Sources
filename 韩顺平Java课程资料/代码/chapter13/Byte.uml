@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Byte</OriginalElement>
+  <nodes>
+    <node x="542.0" y="280.0">java.lang.Float</node>
+    <node x="248.0" y="280.0">java.lang.Double</node>
+    <node x="817.0" y="364.0">java.lang.Long</node>
+    <node x="0.0" y="364.0">java.lang.Short</node>
+    <node x="655.25" y="0.0">java.lang.Object</node>
+    <node x="873.0833333333334" y="110.0">java.lang.Comparable</node>
+    <node x="1313.0" y="364.0">java.lang.Byte</node>
+    <node x="510.75" y="95.0">java.lang.Number</node>
+    <node x="1065.0" y="308.0">java.lang.Integer</node>
+    <node x="410.25" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Short" target="java.lang.Number">
+      <point x="-57.0" y="-121.5" />
+      <point x="57.0" y="220.0" />
+      <point x="529.75" y="220.0" />
+      <point x="-95.0" y="37.5" />
+    </edge>
+    <edge source="java.lang.Number" target="java.lang.Object">
+      <point x="57.0" y="-37.5" />
+      <point x="681.75" y="70.0" />
+      <point x="726.75" y="70.0" />
+      <point x="0.0" y="22.5" />
+    </edge>
+    <edge source="java.lang.Float" target="java.lang.Number">
+      <point x="-63.75" y="-205.5" />
+      <point x="-19.0" y="37.5" />
+    </edge>
+    <edge source="java.lang.Long" target="java.lang.Number">
+      <point x="-57.0" y="-121.5" />
+      <point x="874.0" y="230.0" />
+      <point x="643.75" y="230.0" />
+      <point x="19.0" y="37.5" />
+    </edge>
+    <edge source="java.lang.Long" target="java.lang.Comparable">
+      <point x="57.0" y="-121.5" />
+      <point x="16.41666666666663" y="22.5" />
+    </edge>
+    <edge source="java.lang.Short" target="java.lang.Comparable">
+      <point x="57.0" y="-121.5" />
+      <point x="171.0" y="240.0" />
+      <point x="889.5" y="240.0" />
+      <point x="-82.08333333333337" y="22.5" />
+    </edge>
+    <edge source="java.lang.Double" target="java.lang.Number">
+      <point x="-68.5" y="-205.5" />
+      <point x="316.5" y="230.0" />
+      <point x="567.75" y="230.0" />
+      <point x="-57.0" y="37.5" />
+    </edge>
+    <edge source="java.lang.Double" target="java.lang.Comparable">
+      <point x="68.5" y="-205.5" />
+      <point x="453.5" y="250.0" />
+      <point x="922.3333333333334" y="250.0" />
+      <point x="-49.25" y="22.5" />
+    </edge>
+    <edge source="java.lang.Float" target="java.lang.Comparable">
+      <point x="63.75" y="-205.5" />
+      <point x="733.25" y="260.0" />
+      <point x="955.1666666666667" y="260.0" />
+      <point x="-16.41666666666663" y="22.5" />
+    </edge>
+    <edge source="java.lang.Number" target="java.io.Serializable">
+      <point x="-57.0" y="-37.5" />
+      <point x="567.75" y="70.0" />
+      <point x="522.75" y="70.0" />
+      <point x="0.0" y="22.5" />
+    </edge>
+    <edge source="java.lang.Byte" target="java.lang.Comparable">
+      <point x="57.0" y="-121.5" />
+      <point x="1484.0" y="190.0" />
+      <point x="1053.6666666666667" y="190.0" />
+      <point x="82.08333333333337" y="22.5" />
+    </edge>
+    <edge source="java.lang.Byte" target="java.lang.Number">
+      <point x="-57.0" y="-121.5" />
+      <point x="1370.0" y="200.0" />
+      <point x="719.75" y="200.0" />
+      <point x="95.0" y="37.5" />
+    </edge>
+    <edge source="java.lang.Integer" target="java.lang.Number">
+      <point x="-57.0" y="-177.5" />
+      <point x="1122.0" y="220.0" />
+      <point x="681.75" y="220.0" />
+      <point x="57.0" y="37.5" />
+    </edge>
+    <edge source="java.lang.Integer" target="java.lang.Comparable">
+      <point x="57.0" y="-177.5" />
+      <point x="1236.0" y="210.0" />
+      <point x="1020.8333333333334" y="210.0" />
+      <point x="49.25" y="22.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5119549929676512" x="770.5" y="345.5" />
+  <SelectedNodes>
+    <node>java.lang.Integer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

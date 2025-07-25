@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.InputStream</OriginalElement>
+  <nodes>
+    <node x="286.00000000000006" y="285.0">java.io.FilterInputStream</node>
+    <node x="272.5000000000001" y="380.0">java.io.BufferedInputStream</node>
+    <node x="325.6527777777778" y="95.0">java.io.Closeable</node>
+    <node x="599.0" y="285.0">java.io.ObjectInputStream</node>
+    <node x="0.0" y="285.0">java.io.FileInputStream</node>
+    <node x="506.62500000000006" y="0.0">java.lang.AutoCloseable</node>
+    <node x="312.1527777777778" y="190.0">java.io.InputStream</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.ObjectInputStream" target="java.io.InputStream">
+      <point x="-73.25" y="-22.5" />
+      <point x="672.25" y="260.0" />
+      <point x="487.9861111111111" y="260.0" />
+      <point x="70.33333333333331" y="22.5" />
+    </edge>
+    <edge source="java.io.InputStream" target="java.io.Closeable">
+      <point x="0.0" y="-22.5" />
+      <point x="0.0" y="22.5" />
+    </edge>
+    <edge source="java.io.FileInputStream" target="java.io.InputStream">
+      <point x="0.0" y="-22.5" />
+      <point x="133.0" y="260.0" />
+      <point x="347.31944444444446" y="260.0" />
+      <point x="-70.33333333333331" y="22.5" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-22.5" />
+      <point x="417.6527777777778" y="70.0" />
+      <point x="566.125" y="70.0" />
+      <point x="-59.5" y="22.5" />
+    </edge>
+    <edge source="java.io.BufferedInputStream" target="java.io.FilterInputStream">
+      <point x="-5.6843418860808015E-14" y="-22.5" />
+      <point x="0.0" y="22.5" />
+    </edge>
+    <edge source="java.io.FilterInputStream" target="java.io.InputStream">
+      <point x="-5.6843418860808015E-14" y="-22.5" />
+      <point x="432.5" y="260.0" />
+      <point x="417.6527777777778" y="260.0" />
+      <point x="0.0" y="22.5" />
+    </edge>
+    <edge source="java.io.ObjectInputStream" target="java.lang.AutoCloseable">
+      <point x="73.25" y="-22.5" />
+      <point x="818.75" y="70.0" />
+      <point x="685.125" y="70.0" />
+      <point x="59.500000000000014" y="22.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="446.0" y="212.5" />
+  <SelectedNodes>
+    <node>java.io.InputStream</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

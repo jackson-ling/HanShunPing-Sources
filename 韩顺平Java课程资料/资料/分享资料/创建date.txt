@@ -1,0 +1,3 @@
+SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd");	
+Date date1 = sd.parse("1965-10-10");
+java.sql.Date date2 = new java.sql.Date(date1.getTime());
